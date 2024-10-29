@@ -23,3 +23,14 @@ httpSolidityPort = 8555
     ...
 },
 ```
+
+## Enable to estimate energy
+```
+vm = {
+  supportConstant =true
+  ...
+  # Indicates whether the node support estimate energy API.
+  estimateEnergy = true
+  ...
+}
+```
